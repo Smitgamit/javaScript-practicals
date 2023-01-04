@@ -100,20 +100,19 @@ a() */
 // }
 
 //named function expression
-var d = function xyz(param1, param2) {
-    return console.log('xyz');
-}
+// var d = function xyz(param1, param2) {
+//     return console.log('xyz');
+// }
 
-const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-console.log(myArray)
+// const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 // What is Callback Function in JavaScript
-// Btocking the main thread
+// Blocking the main thread
 // poer of Cateacks ?
 //  11 beep avout EERERISEETERY
 // Closures veso with EEREILESERRES
 // Scope veso witn EVGREINASEERGTS
-// Garbage Coltection & resoveEventListeners
+// Garbage Collection & resoveEventListeners
 // 3mvascript 13 8 synchronous and single - thresded I
 
 // Things learned:
@@ -121,3 +120,10 @@ console.log(myArray)
 // 2. setTimeout helps turn JS which is sinhlethreaded and synchronous into asynchronous.
 // 3. Event listeners can also invoke closures with scope.
 // 4. Event listeners consume a lot of memory which can potentially slow down the website therefore it is good practice to remove if it is not used
+
+let myArray = [1, 2, 3, 4];
+
+const returnValue = myArray.forEach((element) => {
+    return element * element;
+});
+console.log(returnValue);
