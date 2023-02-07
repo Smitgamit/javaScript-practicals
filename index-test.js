@@ -70,7 +70,18 @@ const companies = [
 // }
 // const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 // console.log(revFunction(myArray));
-var i = {}
-i = { id: 1 };
-i = { ...i, name: 'test' };
-console.log(i);
+// var i = {}
+// i = { id: 1 };
+// i = { ...i, name: 'test' };
+// console.log(i);
+
+
+let strEng = "engineering";
+var wordCount = [];
+for (let index = 0; index < strEng.length; index++) {
+    if (!wordCount[strEng[index]]) {
+        wordCount[strEng[index]] = 0;
+    }
+    wordCount[strEng[index]]++;
+}
+console.log(wordCount);

@@ -142,5 +142,8 @@ Write a function that takes an object(a) and a string(b) as argument.Return true
 // console.log(sum);
 // console.log(sumFilter);
 
-let str = '1'
-console.log(str = +str + 2);
+// let str = '1'
+// console.log(str = +str + 2);
+
+// let data = [{ key: 2, b: 10 }, { key: 5, b: 4 }, { key: 1, b: 10 }, { key: 6, b: 4 }]
+// console.table(data.sort((a, b) => a.key - b.key))

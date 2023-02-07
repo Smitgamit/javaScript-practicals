@@ -248,3 +248,23 @@ myFunction([-10, 22, 333, 42], [-11, 5, 22, 41, 42]) */
 // }
 
 // myFunction({ a: 1, b: 2 }, { c: 3, b: 4, e: 5 })
+// what is different between state and props 
+// arrow function
+// DOM and Virtual Dom 
+// State-full component and stateless
+// life cycle methods 
+// preference 
+// type of middleware 
+// routing // router 
+// apache web server 
+// control component and un-control component 
+// key props 
+// create element and clone element 
+// lazy loading in react
+// why we are using className 
+// redux
+// session storage
+// filter 
+// promise 
+// generator function
+// how to set role in react-js

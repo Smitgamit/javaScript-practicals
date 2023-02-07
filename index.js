@@ -362,7 +362,7 @@
 /* --- callback  function --- */
 // function myDisplayer(some) {
 //     console.log(some);
-// }
+// }// var variable = "Global Level Variable";
 
 // function myCalculator(num1, num2, myCallback) {
 //     let sum = num1 + num2;
@@ -921,3 +921,11 @@ console.log(countRepeatedElements(letters)) */
 //     return -1
 // };
 // console.log(repeatedCharacter("geeksforgeeks"));
+
+
+// var str = "Global Level Variable";
+// const strArray = str.split(" ")
+// let revStr = strArray.map((word, index) => {
+//     return word.split('').reverse().join("")
+// })
+// console.log(revStr.join(' '))

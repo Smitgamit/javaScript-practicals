@@ -177,7 +177,7 @@ const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
 // console.log(removeDuplicates(beasts))
 
-const str1 = 'Hello';
-const str2 = 'World';
-str1.concat(' ', str2);
-console.log(str1);
+// const str1 = 'Hello';
+// const str2 = 'World';
+// str1.concat(' ', str2);
+// console.log(str1);

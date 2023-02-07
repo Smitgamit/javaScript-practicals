@@ -210,6 +210,6 @@ function sortArray(array) {
 // const numbers = [33, 2, 8];
 // numbers.sort();
 //console.log(numbers)
-console.log(false == '0');
+// console.log(false == '0');
 // console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());//banana
 
