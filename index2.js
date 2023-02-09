@@ -106,15 +106,62 @@
 // console.log(sum(1)(2)(3));
 
 
-function Person() {
-    this.name = 'John',
-        this.age = 23
-}
+// function Person() {
+//     this.name = 'John',
+//         this.age = 23
+// }
 
-const person = new Person();
+// const person = new Person();
 
 // checking the prototype value
 // console.log(Person.prototype); // { ... }
 // Person.prototype.gender = 'male';
 // console.log(Person.prototype);
-console.log(person);
+// console.log(person);
+// const x = { name: 'alex' }
+// const y = JSON.parse(JSON.stringify(x))
+// const z = x;
+// console.log(y);
+// console.log(x === y);
+// let a = '20';
+// let b = 'str';
+// console.log(a + +b)
+
+// const p = [3, 1, 2]
+// const q = p.sort();
+// console.log(p, q);
+
+
+// const x = { name: 'smit' }
+// const y = { name: 'smit' }
+// console.log(x === y);
+// const a = []
+// const b = []
+// console.log(0 === []);
+// const a = '1'
+// const b = '1'
+// console.log(a === b);
+// const date = new Date()
+// const newdate = new Date()
+// console.log(date === newdate);
+
+// var a = 2;
+// function square(n) {
+
+// }
+
+// var clothes = ['t-shirt'];
+// clothes.length = 0;
+// console.log(clothes[0]);
+
+// How many subscriber do you have ?
+//     What to do  i post ?
+//         at  my location.
+// my 
+
+const isCheck = true;
+const myObj = {
+    name: 'Alex',
+    ...(isCheck && { test: true })
+}
+console.log(myObj)

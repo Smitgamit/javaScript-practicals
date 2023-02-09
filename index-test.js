@@ -22,20 +22,25 @@ const companies = [
     {
         parentId: 2,
         id: 1,
-        name: "Oracle"
+        name: "Orace"
+    },
+    {
+        parentId: 3,
+        id: 1,
+        name: "Test"
     },
 ]
 
 // console.log(companies.length);
-// var filterObjects = {}
-// for (let i = 0; i < companies.length; i++) {
-//     const id = companies[i].parentId
-//     if (!filterObjects[id]) {
-//         filterObjects[id] = [companies[i].name]
-//     } else {
-//         filterObjects[id].push(companies[i].name)
-//     }
-// }
+var filterObjects = {}
+for (let i = 0; i < companies.length; i++) {
+    const id = companies[i].parentId
+    if (!filterObjects[id]) {
+        filterObjects[id] = [companies[i].name]
+    } else {
+        filterObjects[id].push(companies[i].name)
+    }
+}
 // console.log(filterObjects);
 // const data = {
 //     '1': ["TCS", "HCL"],
@@ -79,9 +84,10 @@ const companies = [
 let strEng = "engineering";
 var wordCount = [];
 for (let index = 0; index < strEng.length; index++) {
-    if (!wordCount[strEng[index]]) {
-        wordCount[strEng[index]] = 0;
+    let word = [strEng[index]]
+    if (!wordCount[word]) {
+        wordCount[word] = 0;
     }
-    wordCount[strEng[index]]++;
+    wordCount[word]++;
 }
-console.log(wordCount);
+// console.log(wordCount);
